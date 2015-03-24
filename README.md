@@ -1,3 +1,12 @@
+# Workshop with AngularJS
+
+This repository is forked from [angular-seed](https://github.com/angular/angular-seed) on GitHub.
+The intention is to use it as a foundation for a workshop in AngularJS at HRM Software.
+
+The workshop is introduced in the document `Workshop.md`.
+
+The rest of this document i the original README.md from the angular-seed repository.
+
 # angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
