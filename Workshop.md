@@ -6,7 +6,9 @@
 - Follow the steps in the section `Getting started` in the README.md file. Do not checkout the angular-seed project but use the project you checked out in the previous step.
 
 ## Tutorial
+
 ### Add new list
+
 1. Add new list
     1. Create a method `addList(name)` in ListsCtrl
     1. Let the method's implementation be `alert(name);`
@@ -29,6 +31,7 @@
 
 ### List items
 We want to list all items in a list. Make the list clickable and list all items below the sequence of lists.
+
 1. We need to uniquely identify each list
     1. Add property `id` to all lists in the List factory. The value should be the lists index in the array.
 1. Create a link for each list.
@@ -40,6 +43,7 @@ We want to list all items in a list. Make the list clickable and list all items 
 
 ## Assignment
 Please experiment yourselves with current use-cases.
+
 1. Add item to list
 1. Remove item from list
 1. Remove list
