@@ -1,0 +1,7 @@
+<h2>Lists</h2>
+Filter: <input type="text" id="filter" ng-model="listfilter">
+<ul>
+    <li class="list" ng-repeat="list in lists | filter:{name:listfilter} ">
+        {{list.name}}
+    </li>
+</ul>
