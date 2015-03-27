@@ -36,5 +36,19 @@ describe('TheListApp.lists module', function() {
     it('should listfilter', inject(function() {
       expect($scope.listfilter).not.toBeDefined();
     }));
+
+/*    describe('tutorial', function(){
+      it('should addList', inject(function() {
+        expect($scope.addList).toBeDefined();
+      }));
+
+      it('should addList add a list', inject(function() {
+        expect($scope.lists.length).toEqual(3);
+        $scope.addList('a new list');
+        expect($scope.lists.length).toEqual(4);
+        expect($scope.lists[3].name).toEqual('a new list');
+      }));
+    });
+*/
   });
 });
