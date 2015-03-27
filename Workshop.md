@@ -5,6 +5,35 @@
 - Check out the source code for the workshop from [GitHub][github].
 - Follow the steps in the section `Getting started` in the README.md file. Do not checkout the angular-seed project but use the project you checked out in the previous step.
 
+### Development Environments
+
+#### Eclipse
+
+- Installera Eclipse IDE for Java EE Developers
+- Installera plugin Angular Eclipse 0.8.0
+- Öppna Git-perspektivet.
+- Klona https://github.com/hrmsoftware/AngularJS.git
+- Högerklicka på repositoryt i vyn Git Repositories och välj Import Projects...
+    - Importera som General Project
+- Högerklicka på det nya projektet
+    - Välj Configure -> Convert to AngularJS Project
+- Öppna Properties för projektet
+    - Öppna Tern -> Script Paths
+	- Välj Add Folder
+	- Lägg till app
+- Öppna vyn Angular Explorer
+    - Öppna filen app/controllers/lists.js
+	- Bläddra bland filer och moduler i ditt projekt.
+- Rock'n'Roll
+
+#### Sublime Text
+
+-
+
+#### IntelliJ IDEA
+
+-
+
 ## Tutorial
 
 ### Add new list
