@@ -24,6 +24,10 @@
         Lists.addList(name);
         $scope.lists = Lists.getLists();
     ```
+    1. Add a method in the Lists factory `addList(name)` with the following implementation
+    ```
+        return $scope.lists[$routeParams.listid];
+    ```
     1. Try it out by running `npm start`
 1. Test the new functionality
     1. Uncomment the tests described as `tutorial` in `test/controllers/lists_test.js`
